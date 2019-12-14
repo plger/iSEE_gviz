@@ -17,7 +17,6 @@ rdp <- rowDataPlotDefaults(sce, 5)
 rdp$YAxis <- "edgeR.cellineN61311.cellineN052611.mlog10PValue"
 rdp$XAxis <- "Row data"
 rdp$XAxisRowData <- "edgeR.cellineN61311.cellineN052611.logFC"
-rdp$RowSource <- "Row data plot 1"
 
 initialPanels <- DataFrame(
   Name=c("Row data plot 1", "Custom data plot 1", "Row statistics table 1"),
